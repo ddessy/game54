@@ -1,0 +1,652 @@
+<configuration>
+    <prerequisite>level 1.xml</prerequisite>
+    
+    <categories>
+        <category id="0" score="10" max_spawn_count="5" />
+        <category id="1" score="12" max_spawn_count="5" />
+    </categories>
+    
+    <item_pool>
+        <!-- convex -->
+        <item weight="1" category_id="0">
+            <prefab name="5_3" />
+            <image path="5_3.png" />
+            <description>regular dodecahedron</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="3_5" />
+            <image path="3_5.png" />
+            <description>regular icosahedron</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="sphere" />
+            <image path="sphere.png" />
+            <description>sphere</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="spheroid" />
+            <image path="spheroid.png" />
+            <description>spheroid</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="cone" />
+            <image path="cone.png" />
+            <description>cone</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="cylinder" />
+            <image path="cylinder.png" />
+            <description>cylinder</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="bicone" />
+            <image path="bicone.png" />
+            <description>bicone</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="face_regular_3_pyramid" />
+            <image path="face_regular_3_pyramid.png" />
+            <description>regular tetrahedron (triangular pyramid)</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="face_regular_4_pyramid" />
+            <image path="4_pyramid.png" />
+            <description>square pyramid</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="face_regular_5_pyramid" />
+            <image path="5_pyramid.png" />
+            <description>pentagonal pyramid</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="6_pyramid"/>
+            <image path="6_pyramid.png" />
+            <description>hexagonal pyramid</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="3_prism" />
+            <image path="3_prism.png" />
+            <description>triangular prism</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="4_prism" />
+            <image path="4_prism.png" />
+            <description>square prism</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="5_prism" />
+            <image path="5_prism.png" />
+            <description>pentagonal prism</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="6_prism" />
+            <image path="6_prism.png" />
+            <description>hexagonal prism</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="4_antiprism" />
+            <image path="4_antiprism.png" />
+            <description>square antiprism</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="5_antiprism" />
+            <image path="5_antiprism.png" />
+            <description>pentagonal antiprism</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="6_antiprism" />
+            <image path="6_antiprism.png" />
+            <description>hexagonal antriprism</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="3_dipyramid" />
+            <image path="3_dipyramid.png" />
+            <description>triangular dipyramid</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="4_dipyramid" />
+            <image path="4_dipyramid.png" />
+            <description>square dipyramid</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="5_dipyramid" />
+            <image path="5_dipyramid.png" />
+            <description>pentagonal dipyramid</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="6_dipyramid" />
+            <image path="6_dipyramid.png" />
+            <description>hexagonal dipyramid</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="4_antidipyramid" />
+            <image path="4_antidipyramid.png" />
+            <description>square antidipyramid (square trapezohedron)</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="5_antidipyramid" />
+            <image path="5_antidipyramid.png" />
+            <description>pentagonal antidipyramid (pentagonal trapezohedron)</description>
+        </item>
+        <item weight="1" category_id="0">
+            <prefab name="6_antidipyramid" />
+            <image path="6_antidipyramid.png" />
+            <description>hexagonal antidipyramid (hexagonal trapezohedron)</description>
+        </item>
+        
+        
+        
+        <!-- concave -->
+        <item weight="1" category_id="1">
+            <prefab name="hyperboloid" />
+            <image path="hyperboloid.png" />
+            <description>hyperboloid</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="bicone_hyperboloid" />
+            <image path="bicone_hyperboloid.png" />
+            <description>bicone hyperboloid</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="torus" />
+            <image path="torus.png" />
+            <description>torus</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="toroid" />
+            <image path="toroid.png" />
+            <description>toroid</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="4_2_antiprism" />
+            <image path="4_2_antiprism.png" />
+            <description>{4/2} antiprism</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="5_2_antiprism" />
+            <image path="5_2_antiprism.png" />
+            <description>pentagrammic antiprism</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="6_2_antiprism" />
+            <image path="6_2_antiprism.png" />
+            <description>hexagrammic antiprism</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="5_2_prism" />
+            <image path="5_2_prism.png" />
+            <description>pentagrammic prism</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="6_2_prism" />
+            <image path="6_2_prism.png" />
+            <description>hexagrammic prism</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="5_2_dipyramid" />
+            <image path="5_2_dipyramid.png" />
+            <description>pentagrammic dipyramid</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="6_2_dipyramid" />
+            <image path="6_2_dipyramid.png" />
+            <description>hexagrammic dipyramid</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="5_2_antibipyramid" />
+            <image path="5_2_antidipyramid.png" />
+            <description>pentagrammic antidipyramid</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="6_2_antidipyramid" />
+            <image path="6_2_antidipyramid.png" />
+            <description>hexagrammic antidipyramid</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="face_regular_5_2_pyramid" />
+            <image path="face_regular_5_2_pyramid.png" />
+            <description>pentagrammic pyramid</description>
+        </item>
+        <item weight="1" category_id="1">
+            <prefab name="face_regular_6_2_pyramid" />
+            <image path="face_regular_6_2_pyramid.png" />
+            <description>hexagrammic pyramid</description>
+        </item>
+    </item_pool>
+    
+    <prop_pools>
+        <!-- desks -->
+        <prop_pool id="0" empty_weight="0">
+            <prop weight="12">
+                <prefab name="school_desk" />
+            </prop>
+            <prop weight="12">
+                <prefab name="school_desk_1" />
+            </prop>
+            <prop weight="4">
+                <prefab name="school_desk_2" />
+            </prop>
+            <prop weight="1">
+                <prefab name="school_desk_3" />
+            </prop>
+            <prop weight="1">
+                <prefab name="school_desk_4" />
+            </prop>
+        </prop_pool>
+        
+        <!-- chairs -->
+        <prop_pool id="1" empty_weight="2">
+            <prop weight="15">
+                <prefab name="school_chair" />
+            </prop>
+            <prop weight="3">
+                <prefab name="school_chair_1" />
+            </prop>
+            <prop weight="1">
+                <prefab name="school_chair_2" />
+            </prop>
+            <prop weight="1">
+                <prefab name="stool" />
+            </prop>
+        </prop_pool>
+        
+        <!-- cabinets -->
+        <prop_pool id="2" empty_weight="0">
+            <prop weight="1">
+                <prefab name="cabinet_1" />
+            </prop>
+            <prop weight="1">
+                <prefab name="cabinet_2" />
+            </prop>
+            <prop weight="1">
+                <prefab name="cabinet_3" />
+            </prop>
+        </prop_pool>
+        
+        <!-- desks -->
+        <prop_pool id="3" empty_weight="0">
+            <prop weight="1">
+                <prefab name="desk_1" />
+            </prop>
+        </prop_pool>
+        
+        <!-- sofas -->
+        <prop_pool id="4" empty_weight="0">
+            <prop weight="2">
+                <prefab name="sofa" />
+            </prop>
+            <prop weight="2">
+                <prefab name="sofa_1" />
+            </prop>
+        </prop_pool>
+        
+        <!-- boxes -->
+        <prop_pool id="5" empty_weight="0">
+            <prop weight="1">
+                <prefab name="oven" />
+            </prop>
+            <prop weight="4">
+                <prefab name="closed_cardboard_box" />
+            </prop>
+            <prop weight="5">
+                <prefab name="open_cardboard_box" />
+            </prop>
+            <prop weight="2">
+                <prefab name="pot_1" />
+            </prop>
+        </prop_pool>
+        
+        <!-- fridges -->
+        <prop_pool id="6" empty_weight="0">
+            <prop weight="1">
+                <prefab name="fridge" />
+            </prop>
+        </prop_pool>
+        
+    </prop_pools>
+    
+    <item_spawn_points>
+		<item_spawn_point>
+			<position><x>-6.532979</x><y>0</y><z>-3.642</z></position>
+			<rotation><x>0</x><y>0</y><z>0</z></rotation>
+		</item_spawn_point>
+		<item_spawn_point>
+			<position><x>3.61</x><y>0.8000003</y><z>3.832672</z></position>
+			<rotation><x>0</x><y>0</y><z>0</z></rotation>
+		</item_spawn_point>
+		<item_spawn_point>
+			<position><x>-0.3001543</x><y>1.788258</y><z>0.7286512</z></position>
+			<rotation><x>0</x><y>0</y><z>0</z></rotation>
+		</item_spawn_point>
+		<item_spawn_point>
+			<position><x>-4.359246</x><y>0.7999993</y><z>3.842991</z></position>
+			<rotation><x>0</x><y>0</y><z>0</z></rotation>
+		</item_spawn_point>
+		<item_spawn_point>
+			<position><x>-6.610661</x><y>0</y><z>2.138698</z></position>
+			<rotation><x>0</x><y>0</y><z>0</z></rotation>
+		</item_spawn_point>
+		<item_spawn_point>
+			<position><x>-0.7687246</x><y>0</y><z>-2.588076</z></position>
+			<rotation><x>0</x><y>0</y><z>0</z></rotation>
+		</item_spawn_point>
+		<item_spawn_point>
+			<position><x>-1.501976</x><y>0</y><z>2.032779</z></position>
+			<rotation><x>0</x><y>0</y><z>0</z></rotation>
+		</item_spawn_point>
+    </item_spawn_points>
+    
+    <prop_spawn_points>
+        <!-- school desks -->
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>2.116</x><y>0</y><z>2.19</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>3.494</x><y>0</y><z>2.19</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>0.41</x><y>0</y><z>2.64</z></position>
+			<rotation><x>4.880695</x><y>247.27</y><z>6.735163</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>1.18</x><y>0</y><z>1.337</z></position>
+			<rotation><x>4.880695</x><y>247.27</y><z>6.735163</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>1.868429</x><y>0</y><z>0.007985983</z></position>
+			<rotation><x>0</x><y>263.5726</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>3.494</x><y>0</y><z>-0.02</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>-3.07</x><y>0</y><z>2.19</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>-1.52</x><y>0</y><z>2.19</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>-1.39</x><y>0</y><z>2.19</z></position>
+			<rotation><x>0</x><y>90</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>-1.45</x><y>0</y><z>-0.02</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>-3.07</x><y>0</y><z>-0.02</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>3.492945</x><y>0</y><z>-2.317056</z></position>
+			<rotation><x>0</x><y>264.7343</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>1.9</x><y>0</y><z>-2.34</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>-1.520028</x><y>0</y><z>-2.34371</z></position>
+			<rotation><x>0</x><y>270.8504</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>-3.07</x><y>0</y><z>-2.34</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="0">
+			<position><x>-4.23597</x><y>0</y><z>-1.115875</z></position>
+			<rotation><x>0.07080941</x><y>256.9016</y><z>0.01935411</z></rotation>
+		</prop_spawn_point>
+    
+        <!-- school chairs -->
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>2.83</x><y>0</y><z>2.422</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>2.719</x><y>0</y><z>1.919</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>2.662</x><y>0</y><z>0.18</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>2.662</x><y>0</y><z>-0.3229998</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>1.134</x><y>0</y><z>0.286</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>1.134</x><y>0</y><z>-0.217</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>2.707</x><y>0</y><z>-2.127</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>2.707</x><y>0</y><z>-2.63</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>1.134</x><y>0</y><z>-2.127</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>1.134</x><y>0</y><z>-2.63</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-2.217</x><y>0</y><z>2.432</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-2.217</x><y>0</y><z>1.929</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-2.217</x><y>0</y><z>0.261</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-2.217</x><y>0</y><z>-0.2420001</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-3.784</x><y>0</y><z>2.432</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-3.784</x><y>0</y><z>1.929</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-3.783996</x><y>0</y><z>0.2131085</z></position>
+			<rotation><x>0</x><y>276.4643</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-3.784132</x><y>0</y><z>-0.2879695</z></position>
+			<rotation><x>0</x><y>262.4655</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-5.1</x><y>0</y><z>-1.01</z></position>
+			<rotation><x>0.4233617</x><y>270.8665</y><z>359.6895</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-4.98</x><y>0</y><z>-1.47</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-3.784027</x><y>0</y><z>-2.112669</z></position>
+			<rotation><x>0</x><y>267.5939</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-3.784</x><y>0</y><z>-2.616</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-2.29</x><y>0</y><z>-2.07</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>-2.29</x><y>0</y><z>-2.573</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>1.245</x><y>0</y><z>2.499</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="1">
+			<position><x>1.34</x><y>0</y><z>1.996</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+    
+        <!-- cabinets -->
+		<prop_spawn_point prop_pool_id="2">
+			<position><x>6.421</x><y>0</y><z>3.108</z></position>
+			<rotation><x>0</x><y>270</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="2">
+			<position><x>-6.378</x><y>0</y><z>-2.926</z></position>
+			<rotation><x>0</x><y>90</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="2">
+			<position><x>-6.406</x><y>0</y><z>3.025</z></position>
+			<rotation><x>0</x><y>90</y><z>0</z></rotation>
+		</prop_spawn_point>
+    
+        <!-- desks -->
+		<prop_spawn_point prop_pool_id="3">
+			<position><x>3.935997</x><y>0</y><z>2.093</z></position>
+			<rotation><x>0</x><y>90</y><z>0</z></rotation>
+		</prop_spawn_point>
+    
+        <!-- sofas -->
+		<prop_spawn_point prop_pool_id="4">
+			<position><x>-6.194</x><y>0</y><z>0.3818104</z></position>
+			<rotation><x>0</x><y>96.50105</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="4">
+			<position><x>-0.26</x><y>0</y><z>-1.53</z></position>
+			<rotation><x>0</x><y>84.62504</y><z>0</z></rotation>
+		</prop_spawn_point>
+    
+        <!-- boxes -->
+		<prop_spawn_point prop_pool_id="5">
+			<position><x>6.162</x><y>0</y><z>1.906</z></position>
+			<rotation><x>0</x><y>324.3683</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="5">
+			<position><x>-5.083331</x><y>0</y><z>-2.512741</z></position>
+			<rotation><x>0</x><y>316.2575</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="5">
+			<position><x>-6.221</x><y>0</y><z>-1.735</z></position>
+			<rotation><x>0</x><y>8.664921</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="5">
+			<position><x>-5.73</x><y>0</y><z>2.57</z></position>
+			<rotation><x>0</x><y>46.73353</y><z>0</z></rotation>
+		</prop_spawn_point>
+		<prop_spawn_point prop_pool_id="5">
+			<position><x>-4.629</x><y>0</y><z>3.27</z></position>
+			<rotation><x>0</x><y>8.664921</y><z>0</z></rotation>
+		</prop_spawn_point>
+    
+        <!-- fridges -->
+		<prop_spawn_point prop_pool_id="6">
+			<position><x>-0.2665457</x><y>0</y><z>0.7491753</z></position>
+			<rotation><x>0</x><y>112.1647</y><z>0</z></rotation>
+		</prop_spawn_point>
+       
+    </prop_spawn_points>
+    
+    <props>
+        <prop>
+            <prefab name="shelves" />
+            <position><x>5.75</x><y>0</y><z>-2.6</z></position>
+            <rotation><x>0</x><y>205</y><z>0</z></rotation>
+            <!-- <bin cateogry_id="1" /> -->
+            <labels>
+                <label>
+                    <text>convex</text>
+                    <horizontal_alignment>left</horizontal_alignment>
+                    <vertical_alignment>top</vertical_alignment>
+                    <position><x>0.125</x><y>0.825</y><z>0</z></position>
+                    <rotation><x>0</x><y>-90</y><z>0</z></rotation>
+                    <width>1.5</width>
+                    <height>0.35</height>
+                </label>
+                <label>
+                    <text>concave</text>
+                    <horizontal_alignment>left</horizontal_alignment>
+                    <vertical_alignment>top</vertical_alignment>
+                    <position><x>0.125</x><y>0.425</y><z>0</z></position>
+                    <rotation><x>0</x><y>-90</y><z>0</z></rotation>
+                    <width>1.5</width>
+                    <height>0.35</height>
+                </label>
+            </labels>
+            <sockets>
+                <socket category_id="0">
+                    <position><x>0</x><y>0.825</y><z>-0.6</z></position>
+                    <rotation><x>0</x><y>0</y><z>0</z></rotation>
+                    <size><x>0.3</x><y>0.35</y><z>0.3</z></size>
+                </socket>
+                <socket category_id="0">
+                    <position><x>0</x><y>0.825</y><z>-0.3</z></position>
+                    <rotation><x>0</x><y>0</y><z>0</z></rotation>
+                    <size><x>0.3</x><y>0.35</y><z>0.3</z></size>
+                </socket>
+                <socket category_id="0">
+                    <position><x>0</x><y>0.825</y><z>0</z></position>
+                    <rotation><x>0</x><y>0</y><z>0</z></rotation>
+                    <size><x>0.3</x><y>0.35</y><z>0.3</z></size>
+                </socket>
+                <socket category_id="0">
+                    <position><x>0</x><y>0.825</y><z>0.3</z></position>
+                    <rotation><x>0</x><y>0</y><z>0</z></rotation>
+                    <size><x>0.3</x><y>0.35</y><z>0.3</z></size>
+                </socket>
+                <socket category_id="0">
+                    <position><x>0</x><y>0.825</y><z>0.6</z></position>
+                    <rotation><x>0</x><y>0</y><z>0</z></rotation>
+                    <size><x>0.3</x><y>0.35</y><z>0.3</z></size>
+                </socket>
+                <socket category_id="1">
+                    <position><x>0</x><y>0.425</y><z>-0.6</z></position>
+                    <rotation><x>0</x><y>0</y><z>0</z></rotation>
+                    <size><x>0.3</x><y>0.35</y><z>0.3</z></size>
+                </socket>
+                <socket category_id="1">
+                    <position><x>0</x><y>0.425</y><z>-0.3</z></position>
+                    <rotation><x>0</x><y>0</y><z>0</z></rotation>
+                    <size><x>0.3</x><y>0.35</y><z>0.3</z></size>
+                </socket>
+                <socket category_id="1">
+                    <position><x>0</x><y>0.425</y><z>0</z></position>
+                    <rotation><x>0</x><y>0</y><z>0</z></rotation>
+                    <size><x>0.3</x><y>0.35</y><z>0.3</z></size>
+                </socket>
+                <socket category_id="1">
+                    <position><x>0</x><y>0.425</y><z>0.3</z></position>
+                    <rotation><x>0</x><y>0</y><z>0</z></rotation>
+                    <size><x>0.3</x><y>0.35</y><z>0.3</z></size>
+                </socket>
+                <socket category_id="1">
+                    <position><x>0</x><y>0.425</y><z>0.6</z></position>
+                    <rotation><x>0</x><y>0</y><z>0</z></rotation>
+                    <size><x>0.3</x><y>0.35</y><z>0.3</z></size>
+                </socket>
+            </sockets>
+        </prop>
+    </props>
+</configuration>
